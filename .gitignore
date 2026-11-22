@@ -1,0 +1,11 @@
+# Entornos virtuales
+env/
+venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
