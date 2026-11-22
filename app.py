@@ -9,7 +9,7 @@ def mostrar_menu():
     print("2. Listar tareas")
     print("3. Completar tarea")
     print("4. Eliminar tarea")
-    print("5. Salir")
+    print("5. Salir del programa")
     print("=" * 30)
 
 
@@ -33,7 +33,7 @@ def listar_tareas():
 def main():
     while True:
         mostrar_menu()
-        opcion = input("Seleccione una opción: ").strip()
+        opcion = input("Seleccione una opción (1-5): ").strip()
 
         if opcion == "1":
             agregar_tarea()
@@ -55,14 +55,14 @@ if __name__ == "__main__":
     print("2. Listar tareas")
     print("3. Completar tarea")
     print("4. Eliminar tarea")
-    print("5. Salir")
+    print("5. Salir del programa")
     print("=" * 30)
 
 
 def main():
     while True:
         mostrar_menu()
-        opcion = input("Seleccione una opción: ").strip()
+        opcion = input("Seleccione una opción (1-5): ").strip()
 
         if opcion == "5":
             print("¡Hasta pronto!")
